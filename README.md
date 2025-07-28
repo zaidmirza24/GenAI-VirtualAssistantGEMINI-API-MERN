@@ -53,11 +53,9 @@ CLOUDINARY_API_KEY=your_api_key
 CLOUDINARY_API_SECRET=your_api_secret
 
 Run the backend:
-```bash
 npm run dev
 
 ### 3. Frontend Setup
-```bash
 cd ../client  
 npm install
 
@@ -65,11 +63,9 @@ Create a `.env` file in the `client/` folder with:
 REACT_APP_SERVER_API=http://localhost:5000
 
 Run the frontend:
-```bash
 npm start
 
 ### 4. Open the App
-```bash
 Visit http://localhost:3000 in your browser.
 
 ## 💡 Usage
