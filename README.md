@@ -34,14 +34,17 @@ GenAI-VirtualAssistantGEMINI-API-MERN/
 ## 🔧 Getting Started
 
 ### 1. Clone the Repository
+```bash
 git clone https://github.com/zaidmirza24/GenAI-VirtualAssistantGEMINI-API-MERN.git  
 cd GenAI-VirtualAssistantGEMINI-API-MERN
 
 ### 2. Backend Setup
+```bash
 cd server  
 npm install
 
 Create a `.env` file in the `server/` folder with:
+```bash
 MONGODB_URI=your_mongo_connection_string  
 GOOGLE_API_KEY=your_gemini_api_key  
 JWT_SECRET=your_jwt_secret  
@@ -50,9 +53,11 @@ CLOUDINARY_API_KEY=your_api_key
 CLOUDINARY_API_SECRET=your_api_secret
 
 Run the backend:
+```bash
 npm run dev
 
 ### 3. Frontend Setup
+```bash
 cd ../client  
 npm install
 
@@ -60,9 +65,11 @@ Create a `.env` file in the `client/` folder with:
 REACT_APP_SERVER_API=http://localhost:5000
 
 Run the frontend:
+```bash
 npm start
 
 ### 4. Open the App
+```bash
 Visit http://localhost:3000 in your browser.
 
 ## 💡 Usage
@@ -77,7 +84,7 @@ Visit http://localhost:3000 in your browser.
 3. Submit a pull request
 
 ## 📄 License
-MIT License
+Zaid Mirza
 
 ## 👤 Author
 Made with 💡 by **Zaid Mirza Mohd**  
