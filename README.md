@@ -28,5 +28,6 @@ A sleek, conversational assistant built with the MERN stack and powered by Googl
    git clone https://github.com/zaidmirza24/GenAI-VirtualAssistantGEMINI-API-MERN.git
    cd GenAI-VirtualAssistantGEMINI-API-MERN
 ## Backend Config
+```bash
 cd server
 npm install
